@@ -1,5 +1,6 @@
-<!-- Inspired by Max Howell -->
 <!DOCTYPE html>
+<!-- Inspired by Max Howell -->
+<!-- Corrected by some asshole -->
 <html>
   <head>
     <title>Simon Bihel</title>
@@ -12,23 +13,16 @@
         color: white;
         font-family: 'OpenSans', sans-serif;
         text-transform: uppercase;
+        text-align: center;
       }
-      h1 {
+      #top {
         background: #778B91;
         border-radius: 0.3rem;
         padding: 0.3rem 0.5rem;
         font-size: 2.5rem;
         line-height: 2.5rem;
-        margin: 0;
-      }
-      .clover {
-        height: 2.9rem;
-        width: 2.9rem;
-        margin: 0.1rem 1.1rem;
-      }
-      #top * {
+        font-weight: bold;
         display: inline-block;
-        vertical-align: top;
         margin-top: 5rem;
       }
       #bop {
@@ -47,10 +41,6 @@
       #fop img {
         height: 2rem;
         margin: 0 0.6rem;
-      }
-      .dot:before {
-        content: " / ";
-        color: #E9423A;
       }
       @media (max-width: 321px) {
         #fop {
@@ -90,12 +80,12 @@
     </style>
   </head>
   <body>
-    <center id='top'><h1>Simon Bihel</h1></center>
-    <center id='bop'>Computer Science Student</center>
-    <center id='fop'>
-      <a href='https://github.com/sbihel'><img src='github.png'></a>
-      <a href='https://twitter.com/simon_bihel'><img src='twitter.png'></a>
-      <a href='https://fr.linkedin.com/in/simon-bihel-9b8563b8'><img src='linkedin.png'></a>
-    </center>
+    <div id="top">Simon Bihel</div>
+    <div id="bop">Computer Science Student</div>
+    <div id="fop">
+      <a href="https://github.com/sbihel"><img src="github.png" alt="github"></a>
+      <a href="https://twitter.com/simon_bihel"><img src="twitter.png" alt="twitter"></a>
+      <a href="https://fr.linkedin.com/in/simon-bihel-9b8563b8"><img src="linkedin.png" alt="linkedin"></a>
+    </div>
   </body>
 </html>
